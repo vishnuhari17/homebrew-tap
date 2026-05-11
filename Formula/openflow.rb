@@ -1,10 +1,10 @@
 class Openflow < Formula
   desc "Open-source Wispr Flow clone — fast, private, voice-to-text for macOS"
   homepage "https://github.com/vishnuhari17/OpenFlow"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/vishnuhari17/OpenFlow/releases/download/v0.1.0/openflow-aarch64-apple-darwin.tar.xz"
-    sha256 "ef43c90f9a31a4ee63fc8b46bd3b83761105f70116045ad552f30c4708c9244b"
+    url "https://github.com/vishnuhari17/OpenFlow/releases/download/v0.1.1/openflow-aarch64-apple-darwin.tar.xz"
+    sha256 "b723a850d37995712d5545e0c92ad02999788122596707ba240475e5c21a3b33"
   end
   license "MIT"
 
